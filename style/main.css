@@ -14,8 +14,26 @@ font-family: 'Times New Roman', Times, serif;
 }
 
 header .container {
+ display: flex;
+ flex-direction: row;
+ align-items: center;
+ justify-content:space-between ;
+}
+header .logo{
+    color: var(--vermelho);
+    font-family: 'arial black', Times;
+    text-align: left;
+    font-size: 40px;
+    margin-left: 5px;
+}
+
+header nav a{
+    text-decoration: none;
+    color: #aaa;
+    margin-right: 10px;
 
 }
-.logo{
-    
+
+header nav a:hover{
+    color: azure;
 }

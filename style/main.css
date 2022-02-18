@@ -8,9 +8,10 @@
     box-sizing: border-box;
 }
 /* elementos base */
+
 body{
 background-color: var(--preta);
-font-family: 'Times New Roman', Times, serif;
+font-family: arial,'Times New Roman', Times, serif;
 color: white;
 }
 
@@ -20,29 +21,28 @@ header .container {
  align-items: center;
 /* justify-content:space-between ; */
 }
-header .logo{
-    color: var(--vermelho);
-    font-family: 'arial black', Times;
-    text-align: left;
-    font-size: 40px;
-    margin-left: 10px;
+
+header .logoimg{
+    width: 7%;
 }
 
 header nav a{
     text-decoration: none;
-    color: #aaa;
+    color: azure;
     margin-right: 30px;
-    font-size: 20px;
+    font-size: 15px;
 
 }
 
 header nav a:hover{
-    color: azure;
+    color: #aaa
 }
 .menu {
-    margin-left: auto;
-    margin-right: auto; 
+  /* margin-left: auto;
+    margin-right: auto; */
+    padding-left: 30px;
 }
+
 
 
 /* filme principal */
@@ -91,4 +91,96 @@ header nav a:hover{
 }
 .filme-principal .container{
     width: 60%;
+}
+
+.box-filme{
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+.carrousel-filmes{
+    margin-top: 3px;
+    margin-left: 30px;
+}
+.box-filme{
+    border-radius: 20px;
+}
+
+.titulo-ultimos-12-Meses{
+    margin-top: 40px;
+    margin-left: 30px;
+}
+
+.pesquisa{
+position:inherit;
+left: 50%;
+transform: none;
+background: #282c35;
+height: 30px;
+border-radius: 30px;
+padding: 08px;
+margin-right: 50px;
+}
+.pesquisa-botton{
+    float: left;
+    background: var(--preta);
+    display: inline-flex;
+    align-items: right;
+    transition: 2s;
+
+}
+
+.pesquisa-txt{
+    border: none;
+    background: none;
+    outline: none;
+    float: left;
+    padding: 0;
+    color: white;
+    font-size: 15px;
+    transition: 0.4s;
+    line-height: 10px;
+    width:10px;
+}
+.pesquisa:hover > .pesquisa-txt{
+    width: 140px;
+}
+.pesquisa:hover > .pesquisa-botton{
+    background: white;
+}
+
+/* menu suspenso*/
+.perfilusuario{
+    float: right;
+}
+.perfiluser{
+    list-style:none;
+  
+    }
+    .perfiluser li{
+        position:relative;
+     
+
+        }
+        .perfiluser li a{color:white; text-decoration:none; padding:5px 10px; display:block; }
+
+        .perfiluser li a:hover{
+        background:#333;
+        color:#aaa;
+        }
+        .perfiluser li  ul{
+            position:absolute;
+            top:25px;
+            left:0;
+            background-color:rgb(17, 16, 16);
+            display:none;
+            }
+            .perfiluser li:hover ul, .perfiluser li.over ul{display:block;}
+            .perfiluser li ul li{
+                display:block;
+                width:150px;
+                }
+h2{
+    margin-bottom: 10px;
 }

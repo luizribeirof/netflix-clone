@@ -6,9 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/style/main.css">
-     <!--responsividade-->
-     <link rel="stylesheet" href="/style/responsive.css">
-   
+    <!--responsividade-->
+    <link rel="stylesheet" href="/style/responsive.css">
+
     <!--linkds do carrousel owl -->
     <link rel="stylesheet" href="/style/owl/owl.carousel.min.css">
     <link rel="stylesheet" href="/style/owl/owl.theme.default.min.css">
@@ -17,7 +17,7 @@
 
 <body>
     <header>
-        <div class="container"> 
+        <div class="container">
             <img src="/img/logo.png" alt="" class="logoimg">
             <nav class="menu">
                 <a href="#">Inicio</a>
@@ -27,22 +27,22 @@
                 <a href="#">Minha Lista</a>
             </nav>
             <div class="pesquisa">
-                
+
                 <input class="pesquisa-txt" type="text" name="" placeholder="">
                 <a class="pesquisa-botton" href="#"></a>
                 <i class="fas fa-search"></i>
             </div>
             <div class="perfilusuario">
                 <ul class="perfiluser">
-                          <li><a href="#">Perfil</a>
-                             <ul>
-                                  <li><a href="#">Infantil</a></li>
-                                  <li><a href="#">Gerenciar Perfil</a></li>
-                                  <li><a href="#">Conta</a></li>
-                               </ul>
-                        </li>
-            </ul>
-                
+                    <li><a href="#">Perfil</a>
+                        <ul>
+                            <li><a href="#">Infantil</a></li>
+                            <li><a href="#">Gerenciar Perfil</a></li>
+                            <li><a href="#">Conta</a></li>
+                        </ul>
+                    </li>
+                </ul>
+
             </div>
         </div>
 
@@ -68,82 +68,300 @@
             <h2 class="titulo-ultimos-12-Meses">Lançados nos ultimos 12 meses</h2>
         </div>
     </main>
-    
+
     <div class="carrousel-filmes">
-        <div class="owl-carousel owl-theme">            
-            <div class="item"><img  class="box-filme"src="/img/Lancamento1.jpg" alt=""><h4></h4></div>
-            <div class="item"><img  class="box-filme"src="/img/Lancamento2.jpg" alt=""><h4></h4></div>
-            <div class="item"><img  class="box-filme"src="/img/Lancamento3.jpg" alt=""><h4></h4></div>
-            <div class="item"><img  class="box-filme"src="/img/Lancamento4.jpg" alt=""><h4></h4></div>
-            <div class="item"><img  class="box-filme"src="/img/Lancamento5.jpg" alt=""><h4></h4></div>
-            <div class="item"><img  class="box-filme"src="/img/Lancamento6.jpg" alt=""><h4></h4></div>
-            <div class="item"><img  class="box-filme"src="/img/Lancamento7.jpg" alt=""><h4></h4></div>
-            <div class="item"><img  class="box-filme"src="/img/Lancamento8.jpg" alt=""><h4></h4></div>
-            <div class="item"><img  class="box-filme"src="/img/Lancamento9.jpg" alt=""><h4></h4></div>
-            <div class="item"><img  class="box-filme"src="/img/Lancamento10.jpg" alt=""><h4></h4></div>
+        <div class="owl-carousel owl-theme">
+            <div onclick="acao()">
+                <div class="item"><a href="#ir"><img class="box-filme" src="/img/Lancamento1.jpg" alt="">
+                    </a></div>
+            </div>
+
+            <div onclick="acao1()">
+                <div class="item"><a href="#ir1"><img class="box-filme" src="/img/Lancamento2.jpg" alt="">
+                    </a></div>
+            </div>
+
+            <div onclick="acao2()">
+                <div class="item"><a href="#ir2"><img class="box-filme" src="/img/Lancamento3.jpg" alt="">
+                    </a></div>
+            </div>
+
+            <div onclick="acao3()">
+                <div class="item"><a href="#ir3"><img class="box-filme" src="/img/Lancamento4.jpg" alt="">
+                    </a></div>
+            </div>
+
+            <div onclick="acao4()">
+                <div class="item"><a href="#ir4"><img class="box-filme" src="/img/Lancamento5.jpg" alt="">
+                    </a></div>
+            </div>
+
+            <div onclick="acao5()">
+                <div class="item"><a href="#ir5"><img class="box-filme" src="/img/Lancamento6.jpg" alt="">
+                    </a></div>
+            </div>
+
+            <div onclick="acao6()">
+                <div class="item"><a href="#ir6"><img class="box-filme" src="/img/Lancamento7.jpg" alt="">
+                    </a></div>
+            </div>
+
+            <div onclick="acao7()">
+                <div class="item"><a href="#ir7"><img class="box-filme" src="/img/Lancamento8.jpg" alt="">
+                    </a></div>
+            </div>
+
+            <div onclick="acao8()">
+                <div class="item"><a href="#ir8"><img class="box-filme" src="/img/Lancamento9.jpg" alt="">
+                    </a></div>
+            </div>
+
+            <div onclick="acao9()">
+                <div class="item"><a href="#ir9"><img class="box-filme" src="/img/Lancamento10.jpg" alt="">
+                    </a></div>
+            </div>
+
 
         </div>
+
         <h2 class="titulo-ultimos-12-Meses">Continuar assistindo</h2>
-        <div class="owl-carousel owl-theme">            
-            <div class="item"><img  class="box-filme"src="/img/mini1.jpg" alt=""><h4></h4></div>
-            <div class="item"><img  class="box-filme"src="/img/mini2.jpg" alt=""><h4></h4></div>
-            <div class="item"><img  class="box-filme"src="/img/mini3.jpg" alt=""><h4></h4></div>
-            <div class="item"><img  class="box-filme"src="/img/mini4.jpg" alt=""><h4></h4></div>
-            <div class="item"><img  class="box-filme"src="/img/mini5.jpg" alt=""><h4></h4></div>
-            <div class="item"><img  class="box-filme"src="/img/mini6.jpg" alt=""><h4></h4></div>
-            <div class="item"><img  class="box-filme"src="/img/mini7.jpg" alt=""><h4></h4></div>
-            <div class="item"><img  class="box-filme"src="/img/mini8.jpg" alt=""><h4></h4></div>
-            <div class="item"><img  class="box-filme"src="/img/mini9.jpg" alt=""><h4></h4></div>
-            <div class="item"><img  class="box-filme"src="/img/mini10.jpg" alt=""><h4></h4></div>
+        <div class="owl-carousel owl-theme">
+            <div class="item"><img class="box-filme" src="/img/mini1.jpg" alt="">
+                <h4></h4>
+            </div>
+            <div class="item"><img class="box-filme" src="/img/mini2.jpg" alt="">
+                <h4></h4>
+            </div>
+            <div class="item"><img class="box-filme" src="/img/mini3.jpg" alt="">
+                <h4></h4>
+            </div>
+            <div class="item"><img class="box-filme" src="/img/mini4.jpg" alt="">
+                <h4></h4>
+            </div>
+            <div class="item"><img class="box-filme" src="/img/mini5.jpg" alt="">
+                <h4></h4>
+            </div>
+            <div class="item"><img class="box-filme" src="/img/mini6.jpg" alt="">
+                <h4></h4>
+            </div>
+            <div class="item"><img class="box-filme" src="/img/mini7.jpg" alt="">
+                <h4></h4>
+            </div>
+            <div class="item"><img class="box-filme" src="/img/mini8.jpg" alt="">
+                <h4></h4>
+            </div>
+            <div class="item"><img class="box-filme" src="/img/mini9.jpg" alt="">
+                <h4></h4>
+            </div>
+            <div class="item"><img class="box-filme" src="/img/mini10.jpg" alt="">
+                <h4></h4>
+            </div>
 
         </div>
         <h2 class="titulo-ultimos-12-Meses">Séries</h2>
-        <div class="owl-carousel owl-theme">            
-            <div class="item"><img  class="box-filme"src="/img/mini1.jpg" alt=""><h4></h4></div>
-            <div class="item"><img  class="box-filme"src="/img/mini2.jpg" alt=""><h4></h4></div>
-            <div class="item"><img  class="box-filme"src="/img/mini3.jpg" alt=""><h4></h4></div>
-            <div class="item"><img  class="box-filme"src="/img/mini4.jpg" alt=""><h4></h4></div>
-            <div class="item"><img  class="box-filme"src="/img/mini5.jpg" alt=""><h4></h4></div>
-            <div class="item"><img  class="box-filme"src="/img/mini6.jpg" alt=""><h4></h4></div>
-            <div class="item"><img  class="box-filme"src="/img/mini7.jpg" alt=""><h4></h4></div>
-            <div class="item"><img  class="box-filme"src="/img/mini8.jpg" alt=""><h4></h4></div>
-            <div class="item"><img  class="box-filme"src="/img/mini9.jpg" alt=""><h4></h4></div>
-            <div class="item"><img  class="box-filme"src="/img/mini10.jpg" alt=""><h4></h4></div>
+        <div class="owl-carousel owl-theme">
+            <div class="item"><img class="box-filme" src="/img/mini1.jpg" alt="">
+                <h4></h4>
+            </div>
+            <div class="item"><img class="box-filme" src="/img/mini2.jpg" alt="">
+                <h4></h4>
+            </div>
+            <div class="item"><img class="box-filme" src="/img/mini3.jpg" alt="">
+                <h4></h4>
+            </div>
+            <div class="item"><img class="box-filme" src="/img/mini4.jpg" alt="">
+                <h4></h4>
+            </div>
+            <div class="item"><img class="box-filme" src="/img/mini5.jpg" alt="">
+                <h4></h4>
+            </div>
+            <div class="item"><img class="box-filme" src="/img/mini6.jpg" alt="">
+                <h4></h4>
+            </div>
+            <div class="item"><img class="box-filme" src="/img/mini7.jpg" alt="">
+                <h4></h4>
+            </div>
+            <div class="item"><img class="box-filme" src="/img/mini8.jpg" alt="">
+                <h4></h4>
+            </div>
+            <div class="item"><img class="box-filme" src="/img/mini9.jpg" alt="">
+                <h4></h4>
+            </div>
+            <div class="item"><img class="box-filme" src="/img/mini10.jpg" alt="">
+                <h4></h4>
+            </div>
 
         </div>
         <h2 class="titulo-ultimos-12-Meses">Comédia</h2>
-        <div class="owl-carousel owl-theme">            
-            <div class="item"><img  class="box-filme"src="/img/mini1.jpg" alt=""><h4></h4></div>
-            <div class="item"><img  class="box-filme"src="/img/mini2.jpg" alt=""><h4></h4></div>
-            <div class="item"><img  class="box-filme"src="/img/mini3.jpg" alt=""><h4></h4></div>
-            <div class="item"><img  class="box-filme"src="/img/mini4.jpg" alt=""><h4></h4></div>
-            <div class="item"><img  class="box-filme"src="/img/mini5.jpg" alt=""><h4></h4></div>
-            <div class="item"><img  class="box-filme"src="/img/mini6.jpg" alt=""><h4></h4></div>
-            <div class="item"><img  class="box-filme"src="/img/mini7.jpg" alt=""><h4></h4></div>
-            <div class="item"><img  class="box-filme"src="/img/mini8.jpg" alt=""><h4></h4></div>
-            <div class="item"><img  class="box-filme"src="/img/mini9.jpg" alt=""><h4></h4></div>
-            <div class="item"><img  class="box-filme"src="/img/mini10.jpg" alt=""><h4></h4></div>
+        <div class="owl-carousel owl-theme">
+            <div class="item"><img class="box-filme" src="/img/mini1.jpg" alt="">
+                <h4></h4>
+            </div>
+            <div class="item"><img class="box-filme" src="/img/mini2.jpg" alt="">
+                <h4></h4>
+            </div>
+            <div class="item"><img class="box-filme" src="/img/mini3.jpg" alt="">
+                <h4></h4>
+            </div>
+            <div class="item"><img class="box-filme" src="/img/mini4.jpg" alt="">
+                <h4></h4>
+            </div>
+            <div class="item"><img class="box-filme" src="/img/mini5.jpg" alt="">
+                <h4></h4>
+            </div>
+            <div class="item"><img class="box-filme" src="/img/mini6.jpg" alt="">
+                <h4></h4>
+            </div>
+            <div class="item"><img class="box-filme" src="/img/mini7.jpg" alt="">
+                <h4></h4>
+            </div>
+            <div class="item"><img class="box-filme" src="/img/mini8.jpg" alt="">
+                <h4></h4>
+            </div>
+            <div class="item"><img class="box-filme" src="/img/mini9.jpg" alt="">
+                <h4></h4>
+            </div>
+            <div class="item"><img class="box-filme" src="/img/mini10.jpg" alt="">
+                <h4></h4>
+            </div>
 
         </div>
         <h2 class="titulo-ultimos-12-Meses">Ação</h2>
-        <div class="owl-carousel owl-theme">            
-            <div class="item"> <a href="#"><img  class="box-filme"src="/img/mini1.jpg" alt=""><h4></h4></a></div>
-            <div class="item"><img  class="box-filme"src="/img/mini2.jpg" alt=""><h4></h4></div>
-            <div class="item"><img  class="box-filme"src="/img/mini3.jpg" alt=""><h4></h4></div>
-            <div class="item"><img  class="box-filme"src="/img/mini4.jpg" alt=""><h4></h4></div>
-            <div class="item"><img  class="box-filme"src="/img/mini5.jpg" alt=""><h4></h4></div>
-            <div class="item"><img  class="box-filme"src="/img/mini6.jpg" alt=""><h4></h4></div>
-            <div class="item"><img  class="box-filme"src="/img/mini7.jpg" alt=""><h4></h4></div>
-            <div class="item"><img  class="box-filme"src="/img/mini8.jpg" alt=""><h4></h4></div>
-            <div class="item"><img  class="box-filme"src="/img/mini9.jpg" alt=""><h4></h4></div>
-            <div class="item"><img  class="box-filme"src="/img/mini10.jpg" alt=""><h4></h4></div>
+        <div class="owl-carousel owl-theme">
+            <div class="item"> <a href="#"><img class="box-filme" src="/img/mini1.jpg" alt="">
+                    <h4></h4>
+                </a></div>
+            <div onclick="acao()">
+                <div class="item"><a href="#ir"><img class="box-filme" src="/img/mini2.jpg" alt="">
+                        <h4></h4>
+                    </a></div>
+            </div>
+
+            <div onclick="acao1()">
+                <div class="item"><a href="#ir1"><img class="box-filme" src="/img/mini3.jpg" alt="">
+                        <h4></h4>
+                    </a></div>
+            </div>
+
+            <div onclick="acao2()">
+                <div class="item"><a href="#ir2"><img class="box-filme" src="/img/mini3.jpg" alt="">
+                        <h4></h4>
+                    </a></div>
+            </div>
+            <div class="item"><img class="box-filme" src="/img/mini4.jpg" alt="">
+                <h4></h4>
+            </div>
+            <div class="item"><img class="box-filme" src="/img/mini5.jpg" alt="">
+                <h4></h4>
+            </div>
+            <div class="item"><img class="box-filme" src="/img/mini6.jpg" alt="">
+                <h4></h4>
+            </div>
+            <div class="item"><img class="box-filme" src="/img/mini7.jpg" alt="">
+                <h4></h4>
+            </div>
+            <div class="item"><img class="box-filme" src="/img/mini8.jpg" alt="">
+                <h4></h4>
+            </div>
+            <div class="item"><img class="box-filme" src="/img/mini9.jpg" alt="">
+                <h4></h4>
+            </div>
+            <div class="item"><img class="box-filme" src="/img/mini10.jpg" alt="">
+                <h4></h4>
+            </div>
 
         </div>
-        <iframe width="420" height="315"
+        <!--   <iframe width="420" height="315"
         src="https://www.youtube.com/embed/tgbNymZ7vqY">
-        </iframe>
-        
+        </iframe>    FRAME DE VIDEO NO YOUTUBE
+        -->
+
+
     </div>
+
+    <!--   <div class="modal" >
+        <iframe width="100%" height="100%"
+        src="https://www.youtube.com/embed/tgbNymZ7vqY" >
+        </iframe>    
+        <div id="ir" onclick="fechar()" class="fechar"></div>
+    </div>-->
+    <div id="ir" class="modal">
+        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/DB9-hN0s3r8">
+        </iframe>
+        <a href="">
+            <div onclick="fechar()" class="fechar"> </div>
+        </a>
+    </div>
+
+    <div id="ir1" class="modal1">
+        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/bmbl65oiUgA">
+        </iframe>
+        <a href="">
+            <div onclick="fechar()" class="fechar"> </div>
+        </a>
+    </div>
+
+    <div id="ir2" class="modal2">
+        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/s1GXuTWVXCE">
+        </iframe>
+        <a href="">
+            <div onclick="fechar()" class="fechar"> </div>
+        </a>
+    </div>
+    <div id="ir3" class="modal3">
+        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/s7ZnrtiqGdw">
+        </iframe>
+        <a href="">
+            <div onclick="fechar()" class="fechar"> </div>
+        </a>
+    </div>
+
+    <div id="ir4" class="modal4">
+        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/aDrsItJ_HU4">
+        </iframe>
+        <a href="">
+            <div onclick="fechar()" class="fechar"> </div>
+        </a>
+    </div>
+
+    <div id="ir5" class="modal5">
+        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/FmyB6V4XgMk">
+        </iframe>
+        <a href="">
+            <div onclick="fechar()" class="fechar"> </div>
+        </a>
+    </div>
+    <div id="ir6" class="modal6">
+        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/MRvse6dSdbg">
+        </iframe>
+        <a href="">
+            <div onclick="fechar()" class="fechar"> </div>
+        </a>
+    </div>
+
+    <div id="ir7" class="modal7">
+        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/K0M9r22XiLU">
+        </iframe>
+        <a href="">
+            <div onclick="fechar()" class="fechar"> </div>
+        </a>
+    </div>
+    <div id="ir8" class="modal8">
+        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/f3flIuy86ao">
+        </iframe>
+        <a href="">
+            <div onclick="fechar()" class="fechar"> </div>
+        </a>
+    </div>
+    <div id="ir9" class="modal9">
+        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/psPT_e49EyU">
+        </iframe>
+        <a href="">
+            <div onclick="fechar()" class="fechar"> </div>
+        </a>
+    </div>
+
+
 
 
     <!--scripts JS-->
@@ -152,6 +370,7 @@
     <script src="/js/owl/jquery.min.js"></script>
     <script src="/js/owl/owl.carousel.min.js"></script>
     <script src="/js/owl/mains.js"></script>
+    <script src="/js/owl/popup.js"></script>
     <!--script youtube-->
 
 </body>

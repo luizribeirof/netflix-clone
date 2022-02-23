@@ -240,3 +240,10 @@ function acao30(){
 
     modal.style.display = 'block';
 }
+function acao31(){
+
+    let modal = document.querySelector('.modal31')
+
+
+    modal.style.display = 'block';
+}
